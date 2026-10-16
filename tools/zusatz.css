@@ -1,0 +1,86 @@
+
+/* ---------- Ergänzungen dieses Konzepts ---------- */
+
+/* Wortmarke statt Logo: Name groß, Zusatz als Neon */
+.wortmarke { display: inline-grid; justify-items: start; line-height: .9; text-decoration: none; }
+.wortmarke b { font-weight: 600; font-size: 1.28rem; letter-spacing: .16em; color: var(--text); }
+.wortmarke i { font-style: normal; font-weight: 400; font-size: .62rem; letter-spacing: .58em; color: var(--blau-hell); text-shadow: 0 0 10px var(--neon-schein), 0 0 22px var(--neon-schein); margin-top: .28rem; }
+.vorhang-mitte .wortmarke { justify-items: center; animation: logo-auf 1s var(--kurve-weich) .25s backwards; }
+.vorhang-mitte .wortmarke b { font-size: clamp(2rem, 4.4vw, 3rem); letter-spacing: .2em; margin-right: -.2em; }
+.vorhang-mitte .wortmarke i { font-size: clamp(.8rem, 1.6vw, 1rem); margin-right: -.58em; margin-top: .6rem; }
+
+/* Leistungen ohne Preise: Kacheln über die volle Breite */
+.leistung-raster { grid-column: 1 / -1; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.leistung-raster li:nth-child(n+4) { border-top: 1px solid var(--linie); }
+.leistung-raster .nr { margin-bottom: 2.4rem; }
+@media (max-width: 64rem) { .leistung-raster { grid-template-columns: repeat(2, minmax(0, 1fr)); } .leistung-raster li:nth-child(n+3) { border-top: 1px solid var(--linie); } }
+@media (max-width: 34rem) { .leistung-raster { grid-template-columns: 1fr; } }
+
+/* Team */
+.team { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--linie-2); }
+.person { padding: var(--innen); border-right: 1px solid var(--linie); }
+.person:last-child { border-right: 0; }
+.person figure { margin: 0; display: grid; gap: .9rem; }
+.person img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; box-shadow: 0 0 0 1px rgb(255 255 255 / .08); transition: filter var(--t2) var(--kurve); }
+.person figcaption { display: grid; gap: .15rem; }
+.person b { font-size: 1.25rem; font-weight: 500; letter-spacing: -.02em; }
+.person span { font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-3); }
+@media (hover: hover) and (pointer: fine) { .person:hover img { filter: brightness(1.08) saturate(1.1); } }
+@media (max-width: 52rem) {
+  .team { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .person:nth-child(2n) { border-right: 0; }
+  .person:nth-child(n+3) { border-top: 1px solid var(--linie); }
+}
+
+/* Schwarzweiß-Fotos: ein Hauch Markenfarbe in den Schatten */
+.galerie img, .ring-bild img, .front-bild img { filter: contrast(1.04); }
+
+/* ---------- Feminine Handschrift: Champagner, Rosé, Schreibschrift, weiche Formen ---------- */
+@font-face {
+  font-family: 'Allura';
+  src: url('../fonts/allura-latin-400-normal.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+:root {
+  --schreib: 'Allura', 'Snell Roundhand', cursive;
+  --rund: 30px;
+  --text: #fbf1ec;
+  --text-2: #cdb7b0;
+  --text-3: #93807b;
+  --grund-2: #150f0f;
+  --grund-3: #1d1515;
+  --gold: #e9c9a0;
+  --linie: rgb(255 228 220 / .07);
+  --linie-2: rgb(255 228 220 / .14);
+  --linie-3: rgb(255 228 220 / .26);
+  --neon: linear-gradient(90deg, var(--blau-tief), var(--blau) 40%, var(--gold) 75%, var(--blau-eis));
+}
+/* Wortmarke: Name in feiner Versalschrift, Zusatz als Handschrift in Champagner */
+.wortmarke b { font-weight: 300; letter-spacing: .3em; font-size: 1.05rem; margin-right: -.3em; }
+.wortmarke i { font-family: var(--schreib); letter-spacing: 0; text-transform: none; font-size: 1.15rem; color: var(--gold); text-shadow: 0 0 14px rgb(233 201 160 / .45); margin-top: -.05rem; }
+.vorhang-mitte .wortmarke b { font-size: clamp(1.8rem, 3.6vw, 2.6rem); letter-spacing: .34em; margin-right: -.34em; }
+.vorhang-mitte .wortmarke i { font-size: clamp(2rem, 4vw, 3rem); margin: -.2rem 0 0; }
+/* Überschriften: leichter, zweite Zeile als Schreibschrift */
+.auftakt-text h1 { font-weight: 300; letter-spacing: -.01em; }
+.auftakt-text h1 span { display: block; font-family: var(--schreib); font-weight: 400; font-size: 1.5em; line-height: 1.05; letter-spacing: 0; margin-top: .05em;
+  background: linear-gradient(100deg, var(--blau-hell), var(--gold) 55%, var(--blau-eis)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.titel-m { font-weight: 300; }
+.etikett { letter-spacing: .32em; }
+.etikett b { color: var(--gold); }
+.ort-text h1 { font-family: var(--schreib); font-weight: 400; letter-spacing: 0; font-size: clamp(3.2rem, 2.2rem + 4vw, 6rem); line-height: 1;
+  background: linear-gradient(100deg, var(--blau-eis), var(--gold) 50%, var(--blau-hell)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ring-info h2 { font-weight: 300; }
+.abschnitt-kopf .titel-m::after { content: ''; display: block; width: 2.4rem; height: 1px; margin-top: 1rem; background: linear-gradient(90deg, var(--gold), transparent); }
+/* Weiche Formen */
+.galerie { gap: 10px; }
+.galerie button { border-radius: 22px; }
+.front-bild, .stadtplan, .ue-raster .stadtplan-gross { border-radius: var(--rund); }
+.person img { border-radius: 999px 999px 24px 24px; aspect-ratio: 4 / 5.2; }
+.person { text-align: center; }
+.person figcaption { justify-items: center; }
+.person b { font-family: var(--schreib); font-weight: 400; font-size: 2rem; letter-spacing: 0; line-height: 1; }
+.knopf { background: linear-gradient(180deg, #1f1517, #120c0d); }
+.haus-liste li::before, .ps-licht { background: var(--neon); }
+/* Große Markenschrift im Fuß: Rosé-Gold */
+.fuss .riesen { opacity: .85; }
+.ps-ab b { font-weight: 300; }

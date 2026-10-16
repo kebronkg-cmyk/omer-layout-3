@@ -1,0 +1,551 @@
+{
+ "marke": "HaarWerk München",
+ "titel": "HaarWerk München | Blond, Balayage und Styling am Marienplatz, in Bogenhausen und im Oberpollinger",
+ "beschreibung": "HaarWerk München: Spezialisten für Blond, Balayage und Caramel. Drei Salons am Marienplatz, in Bogenhausen und in der Blowdry Bar im Oberpollinger.",
+ "riesen": [
+  "HaarWerk"
+ ],
+ "h1": [
+  "Blond ist unsere Kunst.",
+  "Dreimal in München."
+ ],
+ "etikett": "Authentic Blonde · München",
+ "ring_titel": "Drei Salons. Ein Gefühl für Blond.",
+ "wortmarke_html": "<b>HaarWerk</b><i>Authentic Blonde</i>",
+ "schriften_vorladen": [
+  "jost-latin-wght-normal.woff2",
+  "allura-latin-400-normal.woff2"
+ ],
+ "schema_typ": "HairSalon",
+ "thema": {
+  "a": "#eba3a6",
+  "hell": "#f7d2cc",
+  "eis": "#fff1ea",
+  "tief": "#b56471",
+  "grund": "#0d0909",
+  "zusatz_css": "zusatz.css"
+ },
+ "licht": {
+  "blau": "#e38f9c",
+  "eis": "#ffd8cc",
+  "warm": "#ffd9a8",
+  "glas": "#ffe8e0",
+  "wolken": [
+   "#9c4857",
+   "#e8a19f",
+   "#ffe0c2"
+  ],
+  "winkel": 0.12
+ },
+ "leistungen_titel": "Für Ihren schönsten Moment.",
+ "leistungen_text": "Tippen Sie an, was Sie sich wünschen. Die Summe zeigt einen Richtwert für Ihren Termin.",
+ "preise": [
+  {
+   "id": "styling",
+   "reiter": "Schnitt & Styling",
+   "titel": "Schnitt & Styling",
+   "text": "Je nach Haarlänge, von kurz bis extra lang.",
+   "zeilen": [
+    [
+     "Waschen, Schneiden & Styling",
+     "kurz bis extra lang",
+     "108 bis 144 €"
+    ],
+    [
+     "Styling",
+     "kurz bis lang",
+     "48 bis 60 €"
+    ]
+   ]
+  },
+  {
+   "id": "pflege",
+   "reiter": "Pflege",
+   "titel": "Pflege",
+   "text": "Für Glanz und Kraft. Besonders nach dem Blondieren.",
+   "zeilen": [
+    [
+     "Olaplex",
+     "je nach Länge",
+     "42 bis 60 €"
+    ],
+    [
+     "Olaplex mit Föhnen & Maske",
+     "",
+     "114 €"
+    ],
+    [
+     "Keratinbehandlung",
+     "",
+     "300 €"
+    ]
+   ]
+  },
+  {
+   "id": "braut",
+   "reiter": "Braut",
+   "titel": "Braut",
+   "text": "Für den großen Tag. Am besten mit Probetermin.",
+   "zeilen": [
+    [
+     "Brautfrisur",
+     "",
+     "144 €"
+    ],
+    [
+     "Probe Brautfrisur",
+     "",
+     "72 €"
+    ]
+   ]
+  }
+ ],
+ "preise_hinweis": "Preisliste der Blowdry Bar im Oberpollinger, inklusive Mehrwertsteuer. In den anderen Salons gelten eigene Preise. Die Summe ist ein Richtwert.",
+ "team_titel": "Hände, die Blond verstehen.",
+ "team_text": "Blond-Expertinnen, Hairstylisten und Make-up Artists. Jede mit ihrer eigenen Handschrift.",
+ "team": [
+  {
+   "name": "Ayse Auth",
+   "rolle": "Inhaberin · Hair Artist",
+   "bild": "team-ayse"
+  },
+  {
+   "name": "Fadi",
+   "rolle": "Geschäftsleitung · Blond",
+   "bild": "team-fadi"
+  },
+  {
+   "name": "Mario",
+   "rolle": "Creative Director",
+   "bild": "team-mario"
+  },
+  {
+   "name": "Steffie",
+   "rolle": "Leitung Oberpollinger",
+   "bild": "team-steffie"
+  },
+  {
+   "name": "Adife",
+   "rolle": "Geschäftsführung Oberpollinger",
+   "bild": "team-adife"
+  },
+  {
+   "name": "Büsra",
+   "rolle": "Blond · Hairstylist",
+   "bild": "team-buesra"
+  },
+  {
+   "name": "Lena",
+   "rolle": "Blond · Hairstylist",
+   "bild": "team-lena"
+  },
+  {
+   "name": "Elisabet",
+   "rolle": "Empfang",
+   "bild": "team-elisabet"
+  }
+ ],
+ "galerie_titel": "Blond, Balayage, Glanz.",
+ "galerie": [
+  [
+   "g-balayage",
+   "Balayage in warmem Blond, weich gewellt"
+  ],
+  [
+   "g-wellen",
+   "Lange blonde Wellen mit Balayage"
+  ],
+  [
+   "g-bogenhausen",
+   "Lichtdurchfluteter Salon in Bogenhausen mit Bögen"
+  ],
+  [
+   "g-oberpollinger",
+   "Empfang der Blowdry Bar im Oberpollinger mit Blumen"
+  ],
+  [
+   "g-waschen",
+   "Waschplätze im Salon"
+  ],
+  [
+   "g-marienplatz",
+   "Lounge mit hellen Sofas am Marienplatz"
+  ]
+ ],
+ "social": [
+  [
+   "Instagram",
+   "https://www.instagram.com/haarwerkmunchen/"
+  ]
+ ],
+ "social_titel": "Jeden Tag neues Blond.",
+ "social_text": "Vorher, nachher und alles dazwischen. Auf Instagram zeigen wir unsere Arbeit.",
+ "social_kanaele": [
+  [
+   "@haarwerkmunchen",
+   "https://www.instagram.com/haarwerkmunchen/"
+  ],
+  [
+   "WhatsApp",
+   "https://wa.me/4915123750233"
+  ]
+ ],
+ "quellen": "haarwerkmuenchen.de, Instagram, Salonkee, Treatwell, OpenStreetMap",
+ "stand": "Oktober 2026",
+ "original_impressum": "https://haarwerkmuenchen.de/impressum/",
+ "salons": [
+  {
+   "id": "marienplatz",
+   "name": "HaarWerk Marienplatz",
+   "kurzname": "Marienplatz",
+   "glas": "MARIENPLATZ",
+   "glas_hoch": "MARIEN|PLATZ",
+   "lage": "Altstadt",
+   "lage_lang": "Altstadt, im Alten Hof. Eingang Sparkassenstraße 19",
+   "strasse": "Alter Hof 5",
+   "plz": "80331",
+   "ort": "München",
+   "tel": "089 21268509",
+   "tel_int": "+498921268509",
+   "zeiten": {
+    "0": [],
+    "1": [],
+    "2": [
+     [
+      9.25,
+      18
+     ]
+    ],
+    "3": [
+     [
+      9.25,
+      18
+     ]
+    ],
+    "4": [
+     [
+      9.25,
+      18
+     ]
+    ],
+    "5": [
+     [
+      9.25,
+      18
+     ]
+    ],
+    "6": [
+     [
+      9.25,
+      15
+     ]
+    ]
+   },
+   "zeiten_text": "Di bis Fr 9:15 bis 18:00 · Sa 9:15 bis 15:00",
+   "buchen": "https://salonkee.de/salon/haarwerk-mnchen",
+   "karte": "salon-marienplatz",
+   "karte_alt": "Salon am Marienplatz mit schwarzen Stühlen und Spiegeln",
+   "lat": 48.1383929,
+   "lon": 11.5785582,
+   "instagram": "https://www.instagram.com/haarwerkmunchen/",
+   "h1": "Marienplatz",
+   "beschreibung": "HaarWerk am Marienplatz, Alter Hof 5. Blond, Balayage und Schnitt. Di bis Fr 9:15 bis 18 Uhr, Sa bis 15 Uhr. Termin online über Salonkee.",
+   "hinweise": [
+    "Eingang Sparkassenstraße 19",
+    "U und S Marienplatz",
+    "Termin online über Salonkee"
+   ]
+  },
+  {
+   "id": "bogenhausen",
+   "name": "HaarWerk Bogenhausen",
+   "kurzname": "Bogenhausen",
+   "glas": "BOGENHAUSEN",
+   "glas_hoch": "BOGEN|HAUSEN",
+   "lage": "Bogenhausen",
+   "lage_lang": "Altbogenhausen, an der Schumannstraße",
+   "strasse": "Schumannstr. 3",
+   "plz": "81679",
+   "ort": "München",
+   "tel": "089 444 88 757",
+   "tel_int": "+498944488757",
+   "zeiten": {
+    "0": [],
+    "1": [],
+    "2": [
+     [
+      9,
+      18
+     ]
+    ],
+    "3": [
+     [
+      9,
+      18
+     ]
+    ],
+    "4": [
+     [
+      9,
+      18
+     ]
+    ],
+    "5": [
+     [
+      9,
+      18
+     ]
+    ],
+    "6": [
+     [
+      9,
+      15
+     ]
+    ]
+   },
+   "zeiten_text": "Di bis Fr 9:00 bis 18:00 · Sa 9:00 bis 15:00",
+   "buchen": "https://buchung.treatwell.de/ort/haarwerk-bogenhausen/",
+   "karte": "salon-bogenhausen",
+   "karte_alt": "Heller Salon in Bogenhausen mit weißen Bögen und Leuchtern",
+   "lat": 48.141012,
+   "lon": 11.6023043,
+   "instagram": "https://www.instagram.com/haarwerkbogenhausen/",
+   "h1": "Bogenhausen",
+   "beschreibung": "HaarWerk in Bogenhausen, Schumannstr. 3. Blond, Balayage und Schnitt. Di bis Fr 9 bis 18 Uhr, Sa bis 15 Uhr. Termin online über Treatwell.",
+   "hinweise": [
+    "Termin online über Treatwell"
+   ]
+  },
+  {
+   "id": "oberpollinger",
+   "name": "HaarWerk Oberpollinger",
+   "kurzname": "Oberpollinger",
+   "glas": "OBERPOLLINGER",
+   "glas_hoch": "OBER|POLLINGER",
+   "lage": "Blowdry Bar",
+   "lage_lang": "Kaufhaus Oberpollinger, 2. Obergeschoss",
+   "strasse": "Neuhauser Str. 18",
+   "plz": "80331",
+   "ort": "München",
+   "tel": "089 86306001",
+   "tel_int": "+498986306001",
+   "zeiten": {
+    "0": [],
+    "1": [],
+    "2": [
+     [
+      10,
+      20
+     ]
+    ],
+    "3": [
+     [
+      10,
+      18
+     ]
+    ],
+    "4": [
+     [
+      10,
+      20
+     ]
+    ],
+    "5": [
+     [
+      10,
+      20
+     ]
+    ],
+    "6": [
+     [
+      10,
+      20
+     ]
+    ]
+   },
+   "zeiten_text": "Di, Do bis Sa 10:00 bis 20:00 · Mi 10:00 bis 18:00",
+   "buchen": "https://www.treatwell.de/ort/haarwerk-by-adife/",
+   "karte": "salon-oberpollinger",
+   "karte_alt": "Empfang der Blowdry Bar im Oberpollinger mit Schriftzug HaarWerk",
+   "lat": 48.1390541,
+   "lon": 11.5676592,
+   "instagram": "https://www.instagram.com/haarwerkmunchen/",
+   "h1": "Oberpollinger",
+   "beschreibung": "HaarWerk Blowdry Bar im Oberpollinger, Neuhauser Str. 18, 2. OG. Styling, Schnitt und Keratin, auch ohne Termin. Di bis Sa ab 10 Uhr.",
+   "hinweise": [
+    "2. Obergeschoss",
+    "Styling auch ohne Termin",
+    "U und S Karlsplatz (Stachus)"
+   ]
+  }
+ ],
+ "bilder": {
+  "salon-marienplatz": {
+   "datei": "HaarWerk_Salon_Muenchen_Salon.jpeg",
+   "seiten": 1.3333,
+   "breiten": [
+    900,
+    1040
+   ],
+   "kontrast": 1.02
+  },
+  "salon-bogenhausen": {
+   "datei": "527943830_17959571609964893_1196365156771319956_n.jpeg",
+   "seiten": 1.3333,
+   "breiten": [
+    900,
+    1080
+   ],
+   "kontrast": 1.02,
+   "oben": 0.35
+  },
+  "salon-oberpollinger": {
+   "datei": "468824840_17996815082706886_8761768267570280946_n.jpeg",
+   "seiten": 1.3333,
+   "breiten": [
+    900,
+    1080
+   ],
+   "kontrast": 1.02,
+   "oben": 0.3
+  },
+  "g-balayage": {
+   "datei": "hw-muenchen-balayage.jpg",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    1140
+   ],
+   "kontrast": 1.02,
+   "oben": 0.25
+  },
+  "g-wellen": {
+   "datei": "Balayage-Blond-1.webp",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    996
+   ],
+   "kontrast": 1.02,
+   "oben": 0.4
+  },
+  "g-bogenhausen": {
+   "datei": "528933628_17959571600964893_5887358033731965735_n.jpeg",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    1080
+   ],
+   "kontrast": 1.02,
+   "oben": 0.3
+  },
+  "g-oberpollinger": {
+   "datei": "BlowDryBar-2.jpeg",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    1600
+   ],
+   "kontrast": 1.02
+  },
+  "g-waschen": {
+   "datei": "haarwerk-bogenhausen-impressionen-2-1.jpg",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    1080
+   ],
+   "kontrast": 1.02,
+   "oben": 0.35
+  },
+  "g-marienplatz": {
+   "datei": "HaarWerk_Salon_Muenchen_Salon_-2.jpeg",
+   "seiten": 1.5,
+   "breiten": [
+    900,
+    1004
+   ],
+   "kontrast": 1.02
+  },
+  "team-ayse": {
+   "datei": "DSF9875-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-fadi": {
+   "datei": "IMG_6303.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-mario": {
+   "datei": "DSF9960-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-steffie": {
+   "datei": "DSF9723-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-adife": {
+   "datei": "DSC00874-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-buesra": {
+   "datei": "DSF9745-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-lena": {
+   "datei": "DSC00878-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  },
+  "team-elisabet": {
+   "datei": "DSF9655-scaled.jpg",
+   "seiten": 0.8,
+   "oben": 0.18,
+   "breiten": [
+    480,
+    800
+   ],
+   "kontrast": 1.02
+  }
+ }
+}
